@@ -18,8 +18,8 @@ function Ryleigh() {
     <div>
       <h3>Ryleigh and Grandpa</h3>
       <div>
-        <p>{ryimgId}</p>
-        <img className="ryNoah-image" src={`/images/Ryleigh/Ryleigh${ryimgId}.jpg`} alt="Ry and Noah Selfies" />
+        <p className="id">{ryimgId}</p>
+        <img className="ry-image" src={`/images/Ryleigh/Ryleigh${ryimgId}.jpg`} alt="Ry and Noah Selfies" />
       </div>
       <button className="selfie-button" onClick={getRyImage}>
         Click To Show Another

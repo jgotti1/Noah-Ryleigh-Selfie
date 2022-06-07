@@ -15,9 +15,7 @@
 h3 {
   color: black;
   font-size: 24px;
-
   text-shadow: 2px 2px 4px #f4f2f2;
-  margin-top: 0;
 }
 .click-below {
   font-size: 20px;
@@ -25,7 +23,7 @@ h3 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: bold;
   text-shadow: 4px 4px 5px #fffefe;
-  margin-top: 75px;
+  margin-top: 35px;
 }
 .home-image {
   width: 38%;
@@ -38,33 +36,46 @@ h3 {
 }
 .ryNoah-image {
   width: 60%;
+  padding: 6px 6px 10px 6px;
+  border: 1px solid #bfbfbf;
+  background-color: white;
+  box-shadow: 10px 10px 5px #727272;
+  border-radius: 9px;
+}
+.ry-image {
+  width: 50%;
   padding: 10px 10px 20px 10px;
   border: 1px solid #bfbfbf;
   background-color: white;
   box-shadow: 10px 10px 5px #727272;
   border-radius: 9px;
 }
+
+.id {
+  display: block;
+  margin: 5px;
+}
 nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  /* width: 30vw; */
+}
+.nav-links {
+  display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 .home-image-random-1 {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 .home-image-random-2 {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -73,6 +84,7 @@ nav {
 .ryNoah-image {
   width: 40%;
 }
+
 a button {
   font-size: 28px;
   text-decoration: none;
@@ -82,6 +94,9 @@ a button {
   box-shadow: 5px 5px 3px #5b5a5a;
   background: white;
   transition: all 0.2s;
+}
+.link-button {
+  width: 90px;
 }
 button:hover {
   transform: translateY(-5px);

@@ -21,7 +21,6 @@ function Home() {
   let srcPath7 = photoPath1().props.src;
   let srcPath8 = photoPath1().props.src;
 
-  console.log(srcPath1 + srcPath2 + srcPath3);
   return (
     <div>
       <img className="home-image" src="/images/john.jpg" alt="selfie-John-Ry-Noah" />
@@ -29,13 +28,13 @@ function Home() {
         <img className="ryNoah-image" src={srcPath1} alt={alt} />
         <img className="ryNoah-image" src={srcPath2} alt={alt} />
         <img className="ryNoah-image" src={srcPath3} alt={alt} />
-        <img className="ryNoah-image" src={srcPath4} alt={alt} />
+        {/* <img className="ryNoah-image" src={srcPath4} alt={alt} /> */}
       </div>
       <div className="home-image-random-2">
         <img className="ryNoah-image" src={srcPath5} alt={alt} />
         <img className="ryNoah-image" src={srcPath6} alt={alt} />
         <img className="ryNoah-image" src={srcPath7} alt={alt} />
-        <img className="ryNoah-image" src={srcPath8} alt={alt} />
+        {/* <img className="ryNoah-image" src={srcPath8} alt={alt} /> */}
       </div>
       <h4 className="click-below">Click Below to see Noah or Ryleigh Selfies</h4>
     </div>

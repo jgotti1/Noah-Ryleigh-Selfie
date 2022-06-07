@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <h1 className="title">Random Selfies With Grandpa</h1>
+        <h1 className="title">Random Selfies With Grandpa 📸</h1>
         <Routes className="routes">
           <Route exact path="/" element={<Home />} />
           <Route path="/Noah" element={<Noah />} />
