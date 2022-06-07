@@ -59,7 +59,7 @@ nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  /* width: 30vw; */
+  width: 500px;
 }
 .nav-links {
   display: flex;
@@ -95,9 +95,9 @@ a button {
   background: white;
   transition: all 0.2s;
 }
-.link-button {
-  width: 90px;
-}
+/* .link-button {
+  width: 290px;
+} */
 button:hover {
   transform: translateY(-5px);
 }
