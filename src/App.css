@@ -68,7 +68,6 @@ h3 {
 nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
   width: 500px;
 }
 .nav-links {
@@ -105,7 +104,7 @@ a button {
   background: white;
   transition: all 0.2s;
   font-family: "Nanum Pen Script";
-  font-size: 34px;
+  font-size: 30px;
 }
 /* .link-button {
   width: 290px;
