@@ -3,7 +3,7 @@ import "./App.css";
 function Home() {
   const photoPath1 = (props) => {
     const pathNumber = Math.floor(Math.random() * 2) + 1;
-    let photoNumber = Math.floor(Math.random() * 180) + 1;
+    let photoNumber = Math.floor(Math.random() * 182) + 1;
     console.log(`running function path number: ${pathNumber} photonumber : ${photoNumber}`);
     if (pathNumber === 2) {
       return <img className="ryNoah-image" src={`/images/Ryleigh/Ryleigh${photoNumber}.jpg`} alt="Ry and Grandpa Selfie" />;

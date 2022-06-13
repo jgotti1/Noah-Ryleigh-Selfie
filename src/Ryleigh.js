@@ -5,12 +5,12 @@ function Ryleigh() {
 
   useEffect(() => {
     console.log("use effect ran");
-    let randomNumber = Math.floor(Math.random() * 180) + 1;
+    let randomNumber = Math.floor(Math.random() * 182) + 1;
     setryimgId(randomNumber);
   }, []);
 
   function getRyImage() {
-    let randomNumber = Math.floor(Math.random() * 180) + 1;
+    let randomNumber = Math.floor(Math.random() * 182) + 1;
     setryimgId(randomNumber);
   }
 

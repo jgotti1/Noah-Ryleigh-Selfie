@@ -5,12 +5,12 @@ function Noah() {
 
   useEffect(() => {
     console.log("use effect ran");
-    let randomNumber = Math.floor(Math.random() * 295) + 1;
+    let randomNumber = Math.floor(Math.random() * 297) + 1;
     setnoahimgId(randomNumber);
   }, []);
 
   function getNoahImage() {
-    let randomNumber = Math.floor(Math.random() * 295) + 1;
+    let randomNumber = Math.floor(Math.random() * 297) + 1;
     setnoahimgId(randomNumber);
   }
 
