@@ -4,7 +4,6 @@ function Ryleigh() {
   let [ryimgId, setryimgId] = useState(1);
 
   useEffect(() => {
-    console.log("use effect ran");
     let randomNumber = Math.floor(Math.random() * 182) + 1;
     setryimgId(randomNumber);
   }, []);
@@ -13,7 +12,14 @@ function Ryleigh() {
     let randomNumber = Math.floor(Math.random() * 182) + 1;
     setryimgId(randomNumber);
   }
-
+  function previous() {
+    let newId = ryimgId - 1;
+    setryimgId(newId);
+  }
+  function next() {
+    let newId = ryimgId + 1;
+    setryimgId(newId);
+  }
   return (
     <div>
       <h3>Ryleigh and Grandpa</h3>
@@ -21,9 +27,14 @@ function Ryleigh() {
         <p className="id">{ryimgId}</p>
         <img className="ry-image" src={`/images/Ryleigh/Ryleigh${ryimgId}.jpg`} alt="Ry and Noah Selfies" />
       </div>
-      <button className="selfie-button" onClick={getRyImage}>
-        Click To Show Another
-      </button>
+
+      <div className="one-selfie">
+        <img onClick={previous} className="arrow" src="./images/arrow-left.png" alt="left arrow" />
+        <button className="selfie-button" onClick={getRyImage}>
+          Click for random photo or arrow for previous or next
+        </button>
+        <img onClick={next} className="arrow" src="./images/arrow-right.png" alt="right arrow" />
+      </div>
       <h4 className="return">Click Below to Return</h4>
     </div>
   );

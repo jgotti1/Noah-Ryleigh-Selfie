@@ -89,12 +89,24 @@ nav {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.arrow {
+  max-width: 50px;
+  opacity: 70%;
+  margin-top: 10px;
+}
+.one-selfie {
+  display: flex;
+  align-items: center;
 
+  justify-content: center;
+  gap: 35px;
+}
 .ryNoah-image {
   width: 40%;
 }
 
-a button {
+a button,
+.home-shuffle {
   font-size: 28px;
   text-transform: uppercase;
   border: 0px solid black;
@@ -105,18 +117,23 @@ a button {
   transition: all 0.2s;
   font-family: "Nanum Pen Script";
   font-size: 30px;
+  opacity: 80%;
+}
+.shuffle {
+  margin-top: 20px;
 }
 /* .link-button {
   width: 290px;
 } */
-button:hover {
+button:hover,
+.arrow:hover {
   transform: translateY(-5px);
 }
 .selfie-button {
   font-size: 18px;
   text-transform: uppercase;
   border: 0px solid black;
-  border-radius: 5px;
+  border-radius: 6px;
   opacity: 100%;
   box-shadow: 5px 5px 3px #5b5a5a;
   background: white;
@@ -124,7 +141,9 @@ button:hover {
   margin-top: 15px;
   font-family: "Nanum Pen Script";
   font-weight: 500;
-  font-size: 36px;
+  font-size: 32px;
+  max-width: 400px;
+  opacity: 70%;
 }
 .return {
   text-shadow: 2px 2px 4px #f4f2f2;

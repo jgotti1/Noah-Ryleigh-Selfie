@@ -24,6 +24,11 @@ function Home() {
   return (
     <div>
       <img className="home-image" src="/images/john.jpg" alt="selfie-John-Ry-Noah" />
+      <div>
+        <button className="home-shuffle shuffle" onClick={() => window.location.reload()}>
+          Shuffle Home Page Images
+        </button>
+      </div>
       <div className="home-image-random-1">
         <img className="ryNoah-image" src={srcPath1} alt={alt} />
         <img className="ryNoah-image" src={srcPath2} alt={alt} />
